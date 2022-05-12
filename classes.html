@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu:wght@500;700&display=swap" rel="stylesheet">
+  <title>Классы</title>
+</head>
+<body>
+  
+  <!-- header -->
+
+  <section class="sub-header s-h-classes">
+
+    <nav>
+      <div class="logo">
+      <a href="index.html">
+        <img src="img/logo_car.png" alt="logo">
+      </a>
+      </div>
+      <div class="nav-links" id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="heroes.html">Герои</a></li>
+          <li><a href="classes.html">Классы</a></li>
+          <li><a href="locations.html">Локации</a></li>
+          <li><a href="updates.html">Обновления</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>КЛАССЫ</h1>
+
+  </section>
+
+  <!-- END header -->
+
+  <!-- classes -->
+
+  <section class="page__classes">
+
+    <div class="row">
+      <div class="epochs-col">
+        <img src="img/assault.jpg" alt="london">
+        <div class="layer">
+          <h3>СТРЕЛОК</h3>
+        </div>
+      </div>
+      <div class="epochs-col">
+        <img src="img/heavy.jpg" alt="london">
+        <div class="layer">
+          <h3>ТЯЖЁЛЫЙ БОЕЦ</h3>
+        </div>
+      </div>
+      <div class="epochs-col">
+        <img src="img/officer.jpg" alt="london">
+        <div class="layer">
+          <h3>ОФИЦЕР</h3>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="epochs-col">
+        <img src="img/specialist.jpg" alt="london">
+        <div class="layer">
+          <h3>СПЕЦИАЛИСТ</h3>
+        </div>
+      </div>
+      <div class="epochs-col">
+        <img src="img/infiltrator.jpg" alt="london">
+        <div class="layer">
+          <h3>ДИВЕРСАНТ</h3>
+        </div>
+      </div>
+      <div class="epochs-col">
+        <img src="img/rocket.jpg" alt="london">
+        <div class="layer">
+          <h3>ЛЕТАЮЩИЙ БОЕЦ</h3>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- end classes -->
+
+  <!-- footer -->
+
+  <section class="footer">
+    <h3>STAR WARS™ BATTLEFRONT II</h3>
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-youtube"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-twitch"></i>
+    </div>
+    <p>© 2022 Electronic Arts Inc.</p>
+  </section>
+
+  <!-- end footer -->
+
+  <script>
+    let navLinks = document.getElementById('navLinks');
+    function showMenu() {
+      navLinks.style.right = '0';
+    }
+    function hideMenu() {
+      navLinks.style.right = '-200px';
+    }
+  </script>
+  <script src="https://kit.fontawesome.com/7860584906.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu:wght@500;700&display=swap" rel="stylesheet">
+  <title>Корчи</title>
+</head>
+<body>
+  
+  <!-- header -->
+
+  <section class="sub-header">
+
+    <nav>
+      <div class="logo">
+      <a href="index.html">
+        <img src="img/logo_car.png" alt="logo">
+      </a>
+      </div>
+      <div class="nav-links" id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="heroes.html">Корчи</a></li>
+          <li><a href="locations.html">Трэки</a></li>
+          <li><a href="updates.html">Обновления</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>КОРЧИ</h1>
+
+  </section>
+
+  <!-- END header -->
+
+  <!-- facilities -->
+
+  <section class="facilities">
+    
+    <div class="row">
+      <div class="facilities-col">
+        <img src="img/bomb1702.jpg" alt="library">
+        <h3>NISSAN SILVIA S15</h3>
+        <p>Этот зловещий владыка ситхов агрессивно атакует врагов световым мечом с двумя клинками, а также использует Темную сторону Силы.</p>
+      </div>
+      <div class="facilities-col">
+        <img src="img/Toyota-Supra.jpg" alt="basketball">
+        <h3>TOYOTA SUPRA A80</h3>
+        <p>Освоив искусство джедаев под руководством Великого магистра Йоды, граф Дуку предал орден джедаев, возжелав большей власти и присягнув Темной стороне.</p>
+      </div>
+      <div class="facilities-col">
+        <img src="img/mark2.jpg" alt="cafeteria">
+        <h3>TOYOTA MARK2 JZX100</h3>
+        <p>Один лишь вид генерала Гривуса, исполинского киборга-калийца, сеет смуту среди врагов.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="facilities-col">
+        <img src="img/laurel.jpg" alt="library">
+        <h3>NISSAN LAUREL</h3>
+        <p>Гнев питает Темную сторону Силы, а ярость Дарта Вейдера безгранична. Обрушьте на врагов порядка всю мощь способностей владыки Вейдера.</p>
+      </div>
+      <div class="facilities-col">
+        <img src="img/gloria.jpg" alt="basketball">
+        <h3>NISSAN GLORIA Y31</h3>
+        <p>Мрачный правитель Галактической Империи — страшный соперник. Владение Темной стороной Силы дарует Императору страшную убийственную мощь.</p>
+      </div>
+      <div class="facilities-col">
+        <img src="img/lada.jpg" alt="cafeteria">
+        <h3>ВАЗ 2106</h3>
+        <p>Командир Иден Версио руководит отрядом «Инферно», бойцами специального назначения Империи. Она — выдающийся пилот и солдат, привыкшая использовать нестандартный подход для решения проблем Империи.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- end facilities -->
+
+  <!-- footer -->
+
+  <section class="footer">
+    <h3>CARX DRIFT RACING</h3>
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-youtube"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-twitch"></i>
+    </div>
+    <p>© 2022 CarX Technologies.</p>
+  </section>
+
+  <!-- end footer -->
+
+  <script>
+    let navLinks = document.getElementById('navLinks');
+    function showMenu() {
+      navLinks.style.right = '0';
+    }
+    function hideMenu() {
+      navLinks.style.right = '-200px';
+    }
+  </script>
+  <script src="https://kit.fontawesome.com/7860584906.js" crossorigin="anonymous"></script>
+</body>
+</html>

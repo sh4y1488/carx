@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu:wght@500;700&display=swap" rel="stylesheet">
+  <title>CarX Drift Racing</title>
+</head>
+<body>
+  
+  <!-- header -->
+
+  <header>
+
+    <nav>
+      <div class="logo">
+      <a href="index.html">
+        <img src="img/logo_car.png" alt="logo">
+      </a>
+      </div>
+      <div class="nav-links" id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="heroes.html">Корчи</a></li>
+          <li><a href="locations.html">Трэки</a></li>
+          <li><a href="updates.html">Обновления</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+      <h1>CARX DRIFT RACING</h1>
+      <p> это реалистичная физика автомобилей, детальная кастомизация и настройка параметров авто, разнообразные локации как городские, так и специальные гоночные треки, система винилов, открытые онлайн комнаты и соревнования вкупе с абсолютно новой графикой!</p>
+      <a href="updates.html" class="hero-btn">ПОСМОТРЕТЬ ОБНОВЛЕНИЯ</a>
+    </div>
+
+  </header>
+
+  <!-- END header -->
+
+  <!-- epochs -->
+
+  <!-- END epochs -->
+
+  <!-- heroes -->
+
+  <section class="heroes">
+    <div class="row row-adaptive">
+      <div class="heroes-col heroes-col-adaptive-1">
+        <h1>МАШИНЫ РВУТ БАНКИ</h1>
+        <p>Десяток трасс, 30 автомобилей, каждый из которых может быть прокачен в одном из готовых стейджей или же настроен вами собственноручно. Тренируйте мастерство в одиночку или же участвуйте в парных заездах с другими игроками.</p>
+        <a href="heroes.html" class="hero-btn red-btn">ПОСМОТРЕТЬ МАШИНЫ</a>
+      </div>
+      <div class="heroes-col heroes-col-adaptive-2">
+        <img src="img/silvias15.png.crdownload" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- END heroes -->
+
+  <!-- classes -->
+
+  <!-- END classes -->
+
+  <!-- locations -->
+
+  <section class="heroes">
+    <div class="row row-adaptive">
+      <div class="heroes-col heroes-col-adaptive-1">
+        <h1>ЛЕГЕНДАРНЫЕ ТРЭКИ ДЛЯ ЛЮТОГО ДРИФТА</h1>
+        <p>Раздавай бочком на самых бешенных трэках Японии. Kami Road, Akina, West Cost Arena, Minami. Покажи всем кто тут папочка дрифта!</p>
+        <a href="locations.html" class="hero-btn red-btn">ПОСМОТРЕТЬ ЛОКАЦИИ</a>
+      </div>
+      <div class="heroes-col heroes-col-adaptive-2">
+        <img src="img/Kart.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- END locations -->
+
+  <!-- call to action -->
+
+  <!-- end call to action -->
+
+  <!-- footer -->
+
+  <section class="footer">
+    <h3>CARX DRIFT RACING</h3>
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-youtube"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-twitch"></i>
+    </div>
+    <p>© 2022 CarX Technologies,</p>
+  </section>
+
+  <!-- end footer -->
+
+  <script>
+    let navLinks = document.getElementById('navLinks');
+    function showMenu() {
+      navLinks.style.right = '0';
+    }
+    function hideMenu() {
+      navLinks.style.right = '-200px';
+    }
+  </script>
+  <script src="https://kit.fontawesome.com/7860584906.js" crossorigin="anonymous"></script>
+</body>
+</html>

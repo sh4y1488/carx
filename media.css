@@ -1,0 +1,135 @@
+@media(max-width: 1024px) {
+
+    /* header */
+
+    .text-box {
+        width: 50%;
+    }
+    
+    .text-box h1 {
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 36px;
+      margin-bottom: 10px;
+    }
+
+    .text-box p {
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 30px;
+      }
+  
+    .nav-links ul li {
+      display: block;
+    }
+  
+    .nav-links {
+      position: fixed;
+      background: linear-gradient(0.5turn, rgba(0, 0, 0, 0.3),rgba(66, 69, 116, 0.3));
+      backdrop-filter: blur(10px);
+      height: 100vh;
+      width: 200px;
+      top: 0;
+      right: -200px;
+      z-index: 2;
+      text-align: left;
+      transition: 1s;
+    }
+  
+    nav .fas {
+      display: block;
+      color: #fff;
+      margin: 10px;
+      font-size: 22px;
+    }
+  
+    .nav-links ul {
+      padding: 30px;
+    }
+
+    /* END header */
+
+    .epochs-col {
+        margin-bottom: 25px;
+    }
+
+    .classes-col {
+        text-align: left;
+    }
+
+    /* heroes & locations */
+
+    .heroes-col {
+        padding: 10px;
+    }
+
+    .row-adaptive {
+        display: table;
+    }
+
+    .heroes-col-adaptive-1 {
+        display: table-footer-group;
+    }
+
+    .heroes-col-adaptive-2 {   
+        display: table-header-group;
+    }
+
+    .heroes-col-adaptive-1 img, .heroes-col-adaptive-2 img {
+        margin-bottom: 20px;
+    }
+
+    /* END heroes & locations */
+
+    .cta h1 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+
+    .footer {
+        padding: 60px 0;
+    }
+
+    .row {
+      flex-direction: column;
+    }
+
+    .testimonial-col img {
+      margin-left: 0px;
+      margin-right: 15px;
+    }
+
+    .facilities-col {
+      margin-bottom: 20%;
+    }
+  
+  }
+
+  @media(max-width: 1200px) {
+    .cta h1 {
+      font-size: 38px;
+      line-height: 40px;
+  }
+
+  .text-box p {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 30px;
+  }
+
+
+  }
+
+  @media(max-width: 1364px) {
+    .text-box h1 {
+      font-size: 40px;
+      line-height: 46px;
+    }
+  }
+
+  @media(max-width: 865px) {
+    .cta h1 {
+      font-size: 28px;
+      line-height: 30px;
+  }
+  }

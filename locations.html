@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu:wght@500;700&display=swap" rel="stylesheet">
+  <title>Трэки</title>
+</head>
+<body>
+  
+  <!-- header -->
+
+  <section class="sub-header s-h-locations">
+
+    <nav>
+      <div class="logo">
+      <a href="index.html">
+        <img src="img/logo_car.png" alt="logo">
+      </a>
+      </div>
+      <div class="nav-links" id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="heroes.html">Корчи</a></li>
+          <li><a href="locations.html">Трэки</a></li>
+          <li><a href="updates.html">Обновления</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>ЛОКАЦИИ</h1>
+
+  </section>
+
+  <!-- END header -->
+
+  <!-- facilities -->
+
+  <section class="facilities">
+    
+    <div class="row">
+      <div class="facilities-col">
+        <img src="img/kamiroad.png" alt="library">
+        <h3>KAMI ROAD</h3>
+        <p>Извилистая, скалиста, сочная, восточная гора на юге Японии, пацаны после пар с кайфом бочком раздают тут ежжи. </p>
+      </div>
+      <div class="facilities-col">
+        <img src="img/akina.jpg" alt="basketball">
+        <h3>AKINA</h3>
+        <p>Легенда гласит, что с давних 90-х годов до сих пор по горе "Акина" катается призрак белой аешки и давит всех чужаков в парном</p>
+      </div>
+      <div class="facilities-col">
+        <img src="img/West_Coast_Arena_Comp_Line.png" alt="cafeteria">
+        <h3>West Coast Arena</h3>
+        <p>Лютая карта для тренировочки езды боком и чтобы жечь резину рядами!!</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="facilities-col">
+        <img src="img/minami.jpg" alt="library">
+        <h3>MINAMI</h3>
+        <p>Настоящая легенда в мире дрифта, в настоящее время, трассу разбомбили монополисты, за что их и ненавидят дрифтеры со всего мира.</p>
+      </div>
+
+  </section>
+
+  <!-- end facilities -->
+
+  <!-- footer -->
+
+  <section class="footer">
+    <h3>CARX DRIFT RACING</h3>
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-youtube"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-twitch"></i>
+    </div>
+    <p>© 2022 CarX Technologies.</p>
+  </section>
+
+  <!-- end footer -->
+
+  <script>
+    let navLinks = document.getElementById('navLinks');
+    function showMenu() {
+      navLinks.style.right = '0';
+    }
+    function hideMenu() {
+      navLinks.style.right = '-200px';
+    }
+  </script>
+  <script src="https://kit.fontawesome.com/7860584906.js" crossorigin="anonymous"></script>
+</body>
+</html>
